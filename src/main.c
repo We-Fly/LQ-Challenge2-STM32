@@ -44,36 +44,45 @@ int main(void)
 	{		
 		OLED_Clear();
 	//	LED_ON;
-		OLED_ShowCHinese(0,0,0);//中
-		OLED_ShowCHinese(18,0,1);//景
-		OLED_ShowCHinese(36,0,2);//园
-		OLED_ShowCHinese(54,0,3);//电
-		OLED_ShowCHinese(72,0,4);//子
-		OLED_ShowCHinese(90,0,5);//科
-		OLED_ShowCHinese(108,0,6);//技
-		OLED_ShowString(0,2,"0.91' OLED TEST",15);
+		// OLED_ShowCHinese(0,0,0);//红
+		// OLED_ShowCHinese(18,0,1);//绿
+		// OLED_ShowCHinese(36,0,2);//蓝
+		// OLED_ShowCHinese(54,0,3);//色
+		// OLED_ShowCHinese(72,0,4);//正
+		// OLED_ShowCHinese(90,0,5);//方
+		// OLED_ShowCHinese(108,0,6);//矩
+		// OLED_ShowCHinese(0,2,7);//三
+		// OLED_ShowCHinese(18,2,8);//角
+		// OLED_ShowCHinese(36,2,9);//圆
+		// OLED_ShowCHinese(54,2,10);//形
+		// OLED_ShowCHinese(72,2,11);//未
+		// OLED_ShowCHinese(90,2,12);//知
+		// OLED_ShowCHinese(108,2,13);//状
+		// OLED_ShowCHinese(90,2,14);//颜
+		
+		OLED_ShowCHinese(0,0,14);//颜
+		OLED_ShowCHinese(18,0,3);//色
+		OLED_ShowChar(36,1,':',1);
+		OLED_ShowCHinese(54,0,11);//未
+		OLED_ShowCHinese(72,0,12);//知
+		OLED_ShowCHinese(0,2,10);//形
+		OLED_ShowCHinese(18,2,13);//状
+		OLED_ShowChar(36,3,':',1);
+		OLED_ShowCHinese(54,2,11);//未
+		OLED_ShowCHinese(72,2,12);//知
+		//红(0) 绿(1) 蓝(2) 色(3) 正(4) 方(5) 矩(6) 三(7) 角(8) 圆(9) 形(10) 未(11) 知(12) 状(13) 颜(14)
+		// OLED_ShowString(0,2,"0.91' OLED TEST",15);
 		//OLED_ShowString(8,2,"ZHONGJINGYUAN");  
 	 //	OLED_ShowString(20,4,"2014/05/01");  
-		OLED_ShowString(0,6,"ASCII:",6);  
-		OLED_ShowString(63,6,"CODE:",5);  
-		OLED_ShowChar(48,6,t,1);//显示ASCII字符	   
-		t++;
-		if(t>'~')t=' ';
-		OLED_ShowNum(103,6,t,3,16);//显示ASCII字符的码值 	
-			
-	
+		// OLED_ShowString(0,6,"ASCII:",6);  
+		// OLED_ShowString(63,6,"CODE:",5);  
+		// OLED_ShowChar(48,6,t,1);//显示ASCII字符	   
+		// t++;
+		// if(t>'~')t=' ';
+		// OLED_ShowNum(103,6,t,3,16);//显示ASCII字符的码值
 		HAL_Delay(2000);
-		// HAL_Delay(8000);
-		// HAL_Delay(8000);
-		// HAL_Delay(8000);
-		OLED_Clear();
-		OLED_DrawBMP(0,0,128,4,BMP1);  //图片显示(图片显示慎用，生成的字表较大，会占用较多空间，FLASH空间8K以下慎用)
-		HAL_Delay(8000);
-		HAL_Delay(8000);
-		HAL_Delay(8000);
-		HAL_Delay(8000);
-		HAL_Delay(8000);
-		
+		// OLED_Clear();
+		// OLED_DrawBMP(0,0,128,4,BMP1);  //图片显示(图片显示慎用，生成的字表较大，会占用较多空间，FLASH空间8K以下慎用)
 	}	  
 }
 
