@@ -26,7 +26,7 @@ int main(void)
 	// GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
 	// HAL_GPIO_Init(LED_GPIO_PORT, &GPIO_InitStruct); 
 
-	u8 t;
+	// u8 t;
 	// delay_init();	    	 //延时函数初始化	  
 	// NVIC_Configuration(); 	 //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
 	OLED_Init();			//初始化OLED  
@@ -39,7 +39,7 @@ int main(void)
 	//   HAL_Delay(1000);
 	// }
 
-	t=' ';
+	// t=' ';
 	while(1) 
 	{		
 		OLED_Clear();
