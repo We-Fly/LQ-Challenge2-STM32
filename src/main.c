@@ -1,8 +1,8 @@
 /**
  * @file main.c
  * @author discodyer (cody23333@gmail.com)
- * @brief 
- * @version 0.1
+ * @brief 接受串口消息，并显示在OLED屏幕上
+ * @version v0.1
  * @date 2022-05-18
  * 
  * GNU General Public License v3.0
@@ -14,36 +14,36 @@
 
 int main(void)
 {
-  HAL_Init();
-  
-  // LED_GPIO_CLK_ENABLE();
-  
-  // GPIO_InitTypeDef GPIO_InitStruct;
-  
-  // GPIO_InitStruct.Pin = LED_PIN;
-  // GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  // GPIO_InitStruct.Pull = GPIO_PULLUP;
-  // GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
-  // HAL_GPIO_Init(LED_GPIO_PORT, &GPIO_InitStruct); 
+	HAL_Init();
 
-  u8 t;
+	// LED_GPIO_CLK_ENABLE();
+
+	// GPIO_InitTypeDef GPIO_InitStruct;
+
+	// GPIO_InitStruct.Pin = LED_PIN;
+	// GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+	// GPIO_InitStruct.Pull = GPIO_PULLUP;
+	// GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+	// HAL_GPIO_Init(LED_GPIO_PORT, &GPIO_InitStruct); 
+
+	u8 t;
 	// delay_init();	    	 //延时函数初始化	  
 	// NVIC_Configuration(); 	 //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
 	OLED_Init();			//初始化OLED  
 	OLED_Clear(); 
 
-  // while (1)
-  // {
-  //   HAL_GPIO_TogglePin(LED_GPIO_PORT, LED_PIN);
-    
-  //   HAL_Delay(1000);
-  // }
+	// while (1)
+	// {
+	//   HAL_GPIO_TogglePin(LED_GPIO_PORT, LED_PIN);
 
-  t=' ';
-  while(1) 
+	//   HAL_Delay(1000);
+	// }
+
+	t=' ';
+	while(1) 
 	{		
 		OLED_Clear();
-	//	LED_ON;
+		// LED_ON;
 		// OLED_ShowCHinese(0,0,0);//红
 		// OLED_ShowCHinese(18,0,1);//绿
 		// OLED_ShowCHinese(36,0,2);//蓝
@@ -72,8 +72,8 @@ int main(void)
 		OLED_ShowCHinese(72,2,12);//知
 		//红(0) 绿(1) 蓝(2) 色(3) 正(4) 方(5) 矩(6) 三(7) 角(8) 圆(9) 形(10) 未(11) 知(12) 状(13) 颜(14)
 		// OLED_ShowString(0,2,"0.91' OLED TEST",15);
-		//OLED_ShowString(8,2,"ZHONGJINGYUAN");  
-	 //	OLED_ShowString(20,4,"2014/05/01");  
+		// OLED_ShowString(8,2,"ZHONGJINGYUAN");  
+	    // OLED_ShowString(20,4,"2014/05/01");  
 		// OLED_ShowString(0,6,"ASCII:",6);  
 		// OLED_ShowString(63,6,"CODE:",5);  
 		// OLED_ShowChar(48,6,t,1);//显示ASCII字符	   

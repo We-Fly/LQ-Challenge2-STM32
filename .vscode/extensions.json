@@ -2,9 +2,17 @@
     // See http://go.microsoft.com/fwlink/?LinkId=827846
     // for the documentation about the extensions.json format
     "recommendations": [
-        "platformio.platformio-ide"
+        "jeff-hykin.better-cpp-syntax",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cpptools-themes",
+        "ms-ceintl.vscode-language-pack-zh-hans",
+        "cschlosser.doxdocgen",
+        "shd101wyy.markdown-preview-enhanced",
+        "davidanson.vscode-markdownlint",
+        "platformio.platformio-ide",
+        "vscode-icons-team.vscode-icons",
+        "sketchbuch.vsc-workspace-sidebar"
     ],
-    "unwantedRecommendations": [
-        "ms-vscode.cpptools-extension-pack"
-    ]
+    "unwantedRecommendations": []
 }

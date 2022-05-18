@@ -1,8 +1,8 @@
 /**
  * @file main.h
- * @author 顾嘉琪
- * @brief 
- * @version 0.1
+ * @author discodyer (cody23333@gmail.com)
+ * @brief 接受串口消息，并显示在OLED屏幕上
+ * @version v0.1
  * @date 2022-05-18
  * 
  * 
