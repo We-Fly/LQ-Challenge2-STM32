@@ -480,6 +480,10 @@ void OLED_Init(void)
 
 	OLED_WR_Byte(0xa1,OLED_CMD);//段重定向设置
 
+
+	OLED_WR_Byte(0xa0,OLED_CMD);//显示方向
+	OLED_WR_Byte(0xc0,OLED_CMD);
+
 	OLED_WR_Byte(0xa6,OLED_CMD);//
 	
 	OLED_WR_Byte(0xa8,OLED_CMD);//设置驱动路数
