@@ -6,7 +6,7 @@
 
 - master(默认分支无代码)
 - stm32f103rc
-- null
+- wio-terminal
 - null
 
 ## 参与贡献
