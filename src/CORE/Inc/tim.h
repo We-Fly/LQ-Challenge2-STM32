@@ -32,8 +32,6 @@
 
 extern TIM_HandleTypeDef htim1;
 
-extern uint16_t number;
-
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

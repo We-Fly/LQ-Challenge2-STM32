@@ -32,8 +32,6 @@
 
 extern UART_HandleTypeDef huart1;
 
-extern uint16_t number;
-
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
@@ -48,3 +46,13 @@ void MX_USART1_UART_Init(void);
 }
 #endif
 #endif /*__ usart_H */
+
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */
+
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

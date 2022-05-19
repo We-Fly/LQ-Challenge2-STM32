@@ -1,12 +1,25 @@
+/* USER CODE BEGIN Header */
 /**
- * @file main.h
- * @author discodyer (cody23333@gmail.com)
- * @brief 接受串口消息，并显示在OLED屏幕上
- * @version v0.1
- * @date 2022-05-18
- * 
- * 
- */
+  ******************************************************************************
+  * @file           : main.h
+  * @brief          : Header for main.c file.
+  *                   This file contains the common defines of the application.
+  ******************************************************************************
+  * @attention
+  *
+  * <h2><center>&copy; Copyright (c) 2022 STMicroelectronics.
+  * All rights reserved.</center></h2>
+  *
+  * This software component is licensed by ST under BSD 3-Clause license,
+  * the "License"; You may not use this file except in compliance with the
+  * License. You may obtain a copy of the License at:
+  *                        opensource.org/licenses/BSD-3-Clause
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+
+/* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __MAIN_H
 #define __MAIN_H
 
@@ -14,39 +27,50 @@
 extern "C" {
 #endif
 
+/* Includes ------------------------------------------------------------------*/
 #include "stm32f1xx_hal.h"
+#include "stdio.h"
+#include "tim.h"
+#include "usart.h"
+#include "gpio.h"
 #include "oled.h"
-
-#define LED_PIN                                GPIO_PIN_2
-#define LED_GPIO_PORT                          GPIOD
-#define LED_GPIO_CLK_ENABLE()                  __HAL_RCC_GPIOD_CLK_ENABLE()
-
-// void SysTick_Handler(void);
-
-// void NMI_Handler(void);
-
-// void HardFault_Handler(void);
-
-// void MemManage_Handler(void);
-
-// void BusFault_Handler(void);
-
-// void UsageFault_Handler(void);
-
-// void SVC_Handler(void);
-
-// void DebugMon_Handler(void);
-
-// void PendSV_Handler(void);
-
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
 extern uint16_t number;
 
-// extern UART_HandleTypeDef huart1;
+/* USER CODE END Includes */
 
+/* Exported types ------------------------------------------------------------*/
+/* USER CODE BEGIN ET */
+
+/* USER CODE END ET */
+
+/* Exported constants --------------------------------------------------------*/
+/* USER CODE BEGIN EC */
+
+/* USER CODE END EC */
+
+/* Exported macro ------------------------------------------------------------*/
+/* USER CODE BEGIN EM */
+
+/* USER CODE END EM */
+
+/* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
+
+/* USER CODE BEGIN EFP */
+
+/* USER CODE END EFP */
+
+/* Private defines -----------------------------------------------------------*/
+/* USER CODE BEGIN Private defines */
+
+/* USER CODE END Private defines */
 
 #ifdef __cplusplus
 }
 #endif
 
 #endif /* __MAIN_H */
+
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

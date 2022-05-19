@@ -34,9 +34,9 @@
 
 //-----------------OLED IIC端口定义----------------  					   
 
-#define OLED_SCL_PIN            GPIO_PIN_8                 //SCL IIC接口的时钟信号
+#define OLED_SCL_PIN            GPIO_PIN_13                 //SCL IIC接口的时钟信号
 #define OLED_SCL_GPIO_PORT      GPIOC                       //SCL IIC接口的GPIO通道
-#define OLED_SDA_PIN            GPIO_PIN_9                  //SDA IIC接口的数据信号
+#define OLED_SDA_PIN            GPIO_PIN_0                  //SDA IIC接口的数据信号
 #define OLED_SDA_GPIO_PORT      GPIOC                       //SDA IIC接口的GPIO通道
 #define OLED_GPIO_CLK_ENABLE()  __HAL_RCC_GPIOC_CLK_ENABLE()//初始化GPIO通道时钟
 
