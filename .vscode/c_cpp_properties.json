@@ -1,0 +1,112 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/cody/OneDrive/Projects/lq-challenge2-stm32/include",
+                "c:/Users/cody/OneDrive/Projects/lq-challenge2-stm32/src",
+                "c:/Users/cody/OneDrive/Projects/lq-challenge2-stm32/lib/Seeed_Arduino_LCD",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/Seeed_Arduino_LCD",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/SPI",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/Adafruit_ZeroDMA",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/Adafruit_ZeroDMA/utility",
+                "c:/Users/cody/OneDrive/Projects/lq-challenge2-stm32/src/Inc",
+                "c:/Users/cody/OneDrive/Projects/lq-challenge2-stm32/src/Src",
+                "C:/Users/cody/.platformio/packages/framework-cmsis@2.50400.181126/CMSIS/Core/Include",
+                "C:/Users/cody/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/cores/arduino",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB/Adafruit_TinyUSB_ArduinoCore",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB/Adafruit_TinyUSB_ArduinoCore/tinyusb/src",
+                "C:/Users/cody/.platformio/packages/framework-cmsis@2.50400.181126/CMSIS/DSP/Include",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/variants/wio_terminal",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/EnergySaving/src",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/FlashStorage/src",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/HID",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/I2S/src",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/LoRaWan",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/Seeed_Arduino_FreeRTOS/src",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/SoftwareSerial",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/TimerTC3",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/TimerTCC0",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/USBHost/src",
+                "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/Wire",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/cody/OneDrive/Projects/lq-challenge2-stm32/include",
+                    "c:/Users/cody/OneDrive/Projects/lq-challenge2-stm32/src",
+                    "c:/Users/cody/OneDrive/Projects/lq-challenge2-stm32/lib/Seeed_Arduino_LCD",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/Seeed_Arduino_LCD",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/SPI",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/Adafruit_ZeroDMA",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/Adafruit_ZeroDMA/utility",
+                    "c:/Users/cody/OneDrive/Projects/lq-challenge2-stm32/src/Inc",
+                    "c:/Users/cody/OneDrive/Projects/lq-challenge2-stm32/src/Src",
+                    "C:/Users/cody/.platformio/packages/framework-cmsis@2.50400.181126/CMSIS/Core/Include",
+                    "C:/Users/cody/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/cores/arduino",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB/Adafruit_TinyUSB_ArduinoCore",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB/Adafruit_TinyUSB_ArduinoCore/tinyusb/src",
+                    "C:/Users/cody/.platformio/packages/framework-cmsis@2.50400.181126/CMSIS/DSP/Include",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/variants/wio_terminal",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/EnergySaving/src",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/FlashStorage/src",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/HID",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/I2S/src",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/LoRaWan",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/Seeed_Arduino_FreeRTOS/src",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/SoftwareSerial",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/TimerTC3",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/TimerTCC0",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/USBHost/src",
+                    "C:/Users/cody/.platformio/packages/framework-arduino-samd-seeed/libraries/Wire",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60000",
+                "__SAMD51P19A__",
+                "WIO_TERMINAL",
+                "SEEED_WIO_TERMINAL",
+                "SEEED_GROVE_UI_WIRELESS",
+                "__SAMD51__",
+                "__FPU_PRESENT",
+                "ARM_MATH_CM4",
+                "SEEED_GROVE_UI_WIRELESS",
+                "VARIANT_QSPI_BAUD_DEFAULT=50000000",
+                "TXRXLED_ENABLE",
+                "ROLE=0",
+                "ARDUINO=10805",
+                "F_CPU=120000000L",
+                "USBCON",
+                "USB_VID=0x2886",
+                "USB_PID=0x802D",
+                "USB_PRODUCT=\"Seeed Wio Terminal\"",
+                "USB_MANUFACTURER=\"Seeed\"",
+                "ARDUINO_ARCH_SAMD",
+                "USB_CONFIG_POWER=100",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/cody/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mfloat-abi=hard",
+                "-mfpu=fpv4-sp-d16",
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
