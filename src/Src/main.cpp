@@ -4,6 +4,7 @@ TFT_eSPI tft = TFT_eSPI();       // Invoke custom library
 
 void setup() {
   Serial.begin(115200);
+  // Serial.println("starting");
   pinMode(WRAP_PIN,  INPUT_PULLUP);
   pinMode(HORIZ_PIN, INPUT_PULLUP);
   tft.begin();
@@ -37,11 +38,13 @@ void loop(void)
         printChar(c);
         if(c == '*'){
           printChar('\n');
+          Serial.printf("ok");
           break;
         }
       }
       *ptr='\0';
       handleCMD(cmd);
+      // printString("have received\n");
     }else{
       printChar(c);
     }
